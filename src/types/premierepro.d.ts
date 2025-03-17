@@ -1,5 +1,5 @@
 declare module "premierepro" {
-  const premierepro: {
+  const app: {
     AppPreference: AppPreferenceStatic;
     AudioClipTrackItem: AudioClipTrackItemStatic;
     AudioComponentChain: AudioComponentChainStatic;
@@ -36,6 +36,8 @@ declare module "premierepro" {
     VideoTrack: VideoTrackStatic;
     VideoTransition: VideoTransitionStatic;
   };
+
+  export const getQE: any;
 
   export type Action = {};
 
@@ -885,5 +887,5 @@ declare module "premierepro" {
     }
   }
 
-  export default premierepro;
+  export default app;
 }
