@@ -71,16 +71,9 @@ The plugin uses Adobe's UXP framework which provides:
 - Persistent storage capabilities
 - Communication between the plugin and the host application
 
-The UXP module (`require("uxp")`) provides:
-
-- File system access via `uxp.storage`
-- UI components and dialog support via `uxp.ui`
-- Network requests through `fetch` API
-- Plugin lifecycle management
-
 ## Premiere Pro API Integration
 
-The premierepro module (`require("premierepro")`) enables the plugin to:
+The premierepro module enables the plugin to:
 
 - Access and modify sequences in the active project
 - Manipulate timeline clips, tracks, and markers
